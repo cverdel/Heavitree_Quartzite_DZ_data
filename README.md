@@ -1,4 +1,4 @@
-# Heavitree_Quartzite_DZ_data
+# Heavitree Quartzite detrital zircon data
 
 ![alt text][Heavitree_photo]
 
