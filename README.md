@@ -1,5 +1,9 @@
 # Heavitree_Quartzite_DZ_data
 
+![alt text][Heavitree_photo]
+
+[Heavitree_photo]: https://github.com/cverdel/Heavitree_Quartzite_DZ_data/blob/main/IMG_1680.jpg?raw=true
+
 Draft version
 
 ```
