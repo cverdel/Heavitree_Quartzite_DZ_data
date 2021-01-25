@@ -2,7 +2,7 @@
 
 Draft version
 
-'''
+```
 require(tidyverse)
 require(data.table)
 require(IsoplotR)
@@ -385,4 +385,4 @@ synthetics_rescaled<-merge(synthetics_rescaled, Bloods_Range_synthetics, all = T
 
 write.csv(synthetics_rescaled, paste0(tempdir(), "/", "Synthetic_spectra_w_geographic_MDS.csv"), row.names=F) 
 tempdir()
-'''
+```
