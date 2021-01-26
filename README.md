@@ -269,7 +269,7 @@ p
 
 [Heavitree_plot4]: https://github.com/cverdel/Heavitree_Quartzite_DZ_data/blob/main/Heavitree_Rplot4.jpeg?raw=true
 
-The next part calculates multidimensional scaling (MDS) coordinates for each sample.
+The next part calculates multidimensional scaling (MDS) coordinates for each sample. For this example, I included synthetic detrital zircon spectra for 600, 1050, 1200, 1600, and 1800 Ma.
 ```
 
 #Calculate MDS coordinates
