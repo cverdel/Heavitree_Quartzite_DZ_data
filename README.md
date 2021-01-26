@@ -431,3 +431,11 @@ synthetics_rescaled<-merge(synthetics_rescaled, Bloods_Range_synthetics, all = T
 write.csv(synthetics_rescaled, paste0(tempdir(), "/", "Synthetic_spectra_w_geographic_MDS.csv"), row.names=F) 
 tempdir()
 ```
+This results in 2 csv files (Heavitree_sample_summary_w_geographic_MDS.csv and Synthetic_spectra_w_geographic_MDS.csv) that can be plotted with GIS. Below is a map of these data made using QGIS. Plotting the data in this way illustrates both the variation in detrital zircon populations highlighted by MDS with geospatial variation.
+
+![alt text][Heavitree_map]
+
+[Heavitree_map]: https://github.com/cverdel/Heavitree_Quartzite_DZ_data/blob/main/Heavitree_map.jpeg?raw=true
+
+
+
