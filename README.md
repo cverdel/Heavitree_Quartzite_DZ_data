@@ -4,7 +4,7 @@
 
 [Heavitree_photo]: https://github.com/cverdel/Heavitree_Quartzite_DZ_data/blob/main/IMG_1680.jpg?raw=true
 
-The Neoproterozoic (Tonian) Heavitree Quartzite forms the lower part of the Neoproterozoic stratigraphic succession of the Amadeus Basin. Detrital zircon data have been collected from the Heavitree Quartzite as part of [several studies that go back almost 30 years.](https://github.com/cverdel/Heavitree_Quartzite_DZ_data/blob/main/Heavitree_DZ_references) This repository includes some R code for organising and plotting these data.
+The Neoproterozoic (Tonian) Heavitree Quartzite forms the lower part of the Neoproterozoic stratigraphic succession of the Amadeus Basin. Detrital zircon data have been collected from the Heavitree Quartzite as part of [several studies that go back almost 30 years.](https://github.com/cverdel/Heavitree_Quartzite_DZ_data/blob/main/Heavitree_DZ_references) This repository includes some R code for organising and plotting these data. I've rearranged the data into eight data tables in this repository.
 
 ```
 require(tidyverse)
