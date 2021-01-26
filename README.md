@@ -183,7 +183,8 @@ p
 
 [Heavitree_plot1]: https://github.com/cverdel/Heavitree_Quartzite_DZ_data/blob/main/Heavitree_Rplot1.jpeg?raw=true
 
-
+The next part filters the data based on discordance. In this example I used a discordance filter of 10% (Concordance_co=0.10).
+```
 #Calculates discordance
 merged$ratio86<-as.numeric(merged$t.68/merged$t.76) #238/206 age divided by #207/206 age
 
