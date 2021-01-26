@@ -181,7 +181,7 @@ p
 ```
 ![alt text][Heavitree_plot1]
 
-[Heavitree_plot1]: https://github.com/cverdel/Heavitree_Quartzite_DZ_data/blob/main/Heavitree_Rplot1.jpg?raw=true
+[Heavitree_plot1]: https://github.com/cverdel/Heavitree_Quartzite_DZ_data/blob/main/Heavitree_Rplot1.jpeg?raw=true
 
 
 #Calculates discordance
