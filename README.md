@@ -199,6 +199,8 @@ merged$Concordance<-ifelse(merged$ratio86 <=upper_limit & merged$ratio86 >=lower
 #Plots a simple (i.e., no error ellipses) Tera-Wasserburg diagram
 p<-ggplot(data=merged, aes(x=U238Pb206,y=Pb207Pb206, colour=Concordance))+
   geom_point()+
+  xlab("238U/206Pb")+
+  ylab("207Pb/206Pb")+
   theme_bw()
 p
 ```
