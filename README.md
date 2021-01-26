@@ -268,6 +268,8 @@ p
 ![alt text][Heavitree_plot4]
 
 [Heavitree_plot4]: https://github.com/cverdel/Heavitree_Quartzite_DZ_data/blob/main/Heavitree_Rplot4.jpeg?raw=true
+
+The next part calculates multidimensional scaling (MDS) coordinates for each sample.
 ```
 
 #Calculate MDS coordinates
