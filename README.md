@@ -258,10 +258,15 @@ p<-ggplot(data=merged_concordant, aes(x=t.conc))+
   theme_bw()+
   theme(axis.text.y=element_blank(),axis.ticks.y=element_blank())+
   ylab("Density")+
-  xlab("Äge (Ma)")+
+  xlab("Age (Ma)")+
   facet_wrap(~Sample_number,  scales="free_y", ncol=7)
 dev.new()
 p
+```
+![alt text][Heavitree_plot4]
+
+[Heavitree_plot4]: https://github.com/cverdel/Heavitree_Quartzite_DZ_data/blob/main/Heavitree_Rplot4.jpeg?raw=true
+```
 
 #Calculate MDS coordinates
 #Rearrange table first
