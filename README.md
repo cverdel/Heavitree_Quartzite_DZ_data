@@ -337,7 +337,20 @@ sample_parameters<-subset(sample_parameters, select=c(Sample_number, Formation, 
 write.csv(sample_parameters, paste0(tempdir(), "/", "Heavitree_sample_summary.csv"), row.names=F) 
 tempdir()
 
+#Make MDS plot
+p<-ggplot(all_coord, aes(x=V1, y=V2))+
+  geom_point(color="blue")+
+  geom_point(data=synthetics_coord,aes(x=V1, y=V2), color="black", size=3)+
+  geom_text(aes(label=Sample_number),hjust=0, vjust=0)+
+  theme_bw()
+p
+```
+![alt text][Heavitree_plot5]
 
+[Heavitree_plot5]: https://github.com/cverdel/Heavitree_Quartzite_DZ_data/blob/main/Heavitree_Rplot5.jpeg?raw=true
+This might be all that's necessary for MDS plotting
+
+```
 #MDS plotting by mapsheet
 max_x<-max(abs(all_coord$V1)) #MDS V1 (horizontal) coordinate with the greatest absolute value
 max_y<-max(abs(all_coord$V2)) ##MDS V2 (vertical) coordinate with the greatest absolute value
