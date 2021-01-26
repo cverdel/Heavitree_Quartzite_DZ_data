@@ -348,7 +348,7 @@ p
 ![alt text][Heavitree_plot5]
 
 [Heavitree_plot5]: https://github.com/cverdel/Heavitree_Quartzite_DZ_data/blob/main/Heavitree_Rplot5.jpeg?raw=true
-This might be all that's necessary for MDS plotting
+This might be all that's necessary for MDS plotting. There is a dataframe called all_coord that has the MDS coordinates for both samples and synthetic spectra, and a dataframe called sample_parameters that has MDS coordinates and some other summary information for each sample. The next part transforms MDS coordinates into geographic coordinates based on which 1:250,000-scale mapsheet the samples are from.
 
 ```
 #MDS plotting by mapsheet
