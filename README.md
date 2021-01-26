@@ -435,7 +435,7 @@ This results in 2 csv files (Heavitree_sample_summary_w_geographic_MDS.csv and S
 
 ![alt text][Heavitree_map]
 
-[Heavitree_map]: https://github.com/cverdel/Heavitree_Quartzite_DZ_data/blob/main/Heavitree_map.jpeg?raw=true
+[Heavitree_map]: https://github.com/cverdel/Heavitree_Quartzite_DZ_data/blob/main/Heavitree_map.jpg?raw=true
 
 
 
