@@ -201,6 +201,11 @@ p<-ggplot(data=merged, aes(x=U238Pb206,y=Pb207Pb206, colour=Concordance))+
   geom_point()+
   theme_bw()
 p
+```
+![alt text][Heavitree_plot2]
+
+[Heavitree_plot1]: https://github.com/cverdel/Heavitree_Quartzite_DZ_data/blob/main/Heavitree_Rplot2.jpeg?raw=true
+```
 
 #Creates 2 new datatables for concordant and discordant results
 merged_concordant<-subset(merged, Concordance=="y")
