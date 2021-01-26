@@ -247,7 +247,7 @@ p
 ```
 ![alt text][Heavitree_plot3]
 
-[Heavitree_plot2]: https://github.com/cverdel/Heavitree_Quartzite_DZ_data/blob/main/Heavitree_Rplot3.jpeg?raw=true
+[Heavitree_plot3]: https://github.com/cverdel/Heavitree_Quartzite_DZ_data/blob/main/Heavitree_Rplot3.jpeg?raw=true
 ```
 
 #Make density plots for each sample
