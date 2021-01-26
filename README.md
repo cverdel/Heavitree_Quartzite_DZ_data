@@ -244,6 +244,11 @@ p<-ggplot(df, aes(map_sheet, ..count..)) +
   theme(axis.text.x = element_text(size = 10, angle=45, hjust=1))+
   theme(axis.title.x = element_blank())
 p
+```
+![alt text][Heavitree_plot3]
+
+[Heavitree_plot2]: https://github.com/cverdel/Heavitree_Quartzite_DZ_data/blob/main/Heavitree_Rplot3.jpeg?raw=true
+```
 
 #Make density plots for each sample
 p<-ggplot(data=merged_concordant, aes(x=t.conc))+
