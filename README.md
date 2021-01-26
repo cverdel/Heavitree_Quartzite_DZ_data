@@ -17,6 +17,7 @@ require(provenance)
 #4  Hollis_etal_2013      #5 Kositcin_etal_2014   #6 Maidment_etal_2007
 #7  Normington_etal_2016  #8 Zhao_etal_1992           
 
+#The first part downloads the data
 #Download data
 data_url<-"https://github.com/cverdel/Heavitree_Quartzite_DZ_data/raw/main/Blades_etal_2021.csv"
 temp<-tempfile()
@@ -73,7 +74,7 @@ download.file(data_url, temp, mode="wb")
 #Read data
 Zhao_etal_1992<-read.csv(temp)
 
-#Calculates ages with IsoplotR
+#Ages are calculated for each dataset using the Isoplot R package. Ages are calculated for each datset individually because the errors are reported slightly differently.
 #1
 subset <- Blades_etal_2021[c("U238Pb206", "U238Pb206_error_2s_abs", "Pb207Pb206", "Pb207Pb206_error_2s_abs")] #Subsets data for age calculation
 data<-read.data(subset, method="U-Pb", format=2, ierr=2) #Reads subset in IsoplotR format
@@ -154,7 +155,7 @@ Zhao_etal_1992<-combined %>%
          t.76_error = "s[t.76]",
          t.68_error = "s[t.68]")
 
-#Merges data
+#This part merges the 8 datasets into 1
 merged<-merge(Blades_etal_2021, Camacho_etal_2015, all = TRUE)
 merged<-merge(merged, Haines_etal_2016, all = TRUE)
 merged<-merge(merged, Hollis_etal_2013, all = TRUE)
